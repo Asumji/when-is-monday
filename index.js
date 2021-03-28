@@ -19,8 +19,7 @@ try {
             bot.user.setPresence({
               activity: {
                 name: status[0],
-                type: status[1],
-                url: "https://twitch.tv/RydonBotDiscord"
+                type: status[1]
               },
         
               status: "online"
@@ -127,7 +126,7 @@ try {
           message.channel.send("Setup:\n\nm!channel {channel id} {ping setting}\nSet the countdown channel.\n\nm!invite\nInvite me to your server.")
         }
      });
-     bot.login("NzEwMTUyNDM5NTI0ODg0NTkx.XrwS_w.kvrXIItGR7NJGXzI4h6U_IWts_k");
+     bot.login("token-here");
    } catch(e) {
      console.error("Something went wrong!\nError:\n"+ e)
    }
