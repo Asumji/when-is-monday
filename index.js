@@ -118,7 +118,8 @@ try {
         if (command == PREFIX + "invite") {
           const embed = new discord.MessageEmbed()
           embed.setTitle("Invite!")
-          embed.setURL("https://discord.com/oauth2/authorize?client_id=710152439524884591&scope=bot&permissions=8")
+          embed.setURL("url-here")
+          embed.setFooter("Made by Asumji#2143")
           message.channel.send(embed)
         }
 
